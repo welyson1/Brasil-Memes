@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/novosmemes"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="@drawable/btlite" />
+
+            <Button
+                android:id="@+id/bonecojosias"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/bonecojosias" />
+
+            <Button
+                android:id="@+id/galocego"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/galocego" />
+
+            <Button
+                android:id="@+id/silvio"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/silvio" />
+
+            <Button
+                android:id="@+id/faustao"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/faustao" />
+
+            <Button
+                android:id="@+id/voceeburro"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/voceeburro" />
+
+            <Button
+                android:id="@+id/vindiesel"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/vindiesel" />
+
+            <Button
+                android:id="@+id/delicia"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/quedelicia" />
+
+            <Button
+                android:id="@+id/sikerajunior"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/sikerajunior" />
+
+            <Button
+                android:id="@+id/chico"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/chicobioca" />
+
+            <Button
+                android:id="@+id/filmaefala"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/filmaefala" />
+
+            <Button
+                android:id="@+id/dilma"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/dilma" />
+
+            <Button
+                android:id="@+id/pesadao"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/pesadao" />
+
+            <Button
+                android:id="@+id/cepo"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/cepodemadeira" />
+
+            <Button
+                android:id="@+id/papaco"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/papaco" />
+
+            <Button
+                android:id="@+id/serjao"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/serjao" />
+
+            <Button
+                android:id="@+id/negobam"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/negobam" />
+
+            <Button
+                android:id="@+id/bolsonaro"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/bolsonaro" />
+
+            <Button
+                android:id="@+id/felipe"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/felipe" />
+
+            <Button
+                android:id="@+id/morrediabo"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/morrediabo" />
+
+            <Button
+                android:id="@+id/nuncanemvi"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@drawable/nuncanemvi" />
+
+            <Button
+                android:id="@+id/alborguetti"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/alborguetti"
+                app:layout_constraintEnd_toStartOf="@+id/away" />
+
+            <Button
+                android:id="@+id/cachorreira"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/celoucocachoeira" />
+
+            <Button
+                android:id="@+id/away"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/away" />
+
+            <Button
+                android:id="@+id/djrogerinho"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/djrogerinho" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+    </ListView>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="iddd banner aquiiii"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
